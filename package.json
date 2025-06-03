@@ -1,0 +1,44 @@
+{
+  "name": "google-sheets-reminder-system",
+  "version": "1.0.0",
+  "description": "An api to take scheduled tasks from google spreadsheet and send there notifications",
+  "keywords": [
+    "sheets",
+    "google",
+    "sheets",
+    "email",
+    "reminder"
+  ],
+  "homepage": "https://github.com/PrathameshGandule/google-sheets-reminder-system#readme",
+  "bugs": {
+    "url": "https://github.com/PrathameshGandule/google-sheets-reminder-system/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrathameshGandule/google-sheets-reminder-system.git"
+  },
+  "license": "ISC",
+  "author": "Prathamesh Gandule",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "google-auth-library": "^9.15.1",
+    "googleapis": "^149.0.0",
+    "mongoose": "^8.15.1",
+    "node-cron": "^4.1.0",
+    "nodemailer": "^7.0.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@biomejs/biome"
+    ]
+  }
+}
